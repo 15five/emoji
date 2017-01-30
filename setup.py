@@ -70,7 +70,7 @@ setup(
     include_package_data=True,
     license="New BSD",
     long_description=readme_content,
-    packages=['emoji'],
+    packages=['python_emoji'],
     url=source,
     version=version,
     zip_safe=True,
