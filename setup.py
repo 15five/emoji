@@ -18,7 +18,7 @@ with open('README.rst', encoding='utf-8') as f:
 
 
 author = email = source = version = None
-with open(os.path.join('emoji', '__init__.py'), encoding='utf-8') as f:
+with open(os.path.join('python_emoji', '__init__.py'), encoding='utf-8') as f:
     for line in f:
         if line.strip().startswith('__version__'):
             version = line.split('=')[1].strip().replace('"', '').replace("'", '')
